@@ -33,19 +33,20 @@ theme:
       semantic-search: fontawesome/solid/magnifying-glass
       vector-emebddings: fontawesome/solid/bars
       mlops: fontawesome/solid/gears
+      rag: fontawesome/solid/repeat
       
 nav:
-  - Home: index.md
+  - DL.AI Companion: index.md
   - Course Notes:
-    - Data Preprocessing: 
-      - Preprocessing Unstructured Data for LLM Applications: notes/preprocessing-unstructured-data-for-llm-applications.md
-    - LLMOps: 
-      - LLMOps: notes/llmops.md
+    - Preprocessing Unstructured Data for LLM Applications: notes/preprocessing-unstructured-data-for-llm-applications.md
+    - LLMOps: notes/llmops.md
     - Building Generative AI Applications with Gradio: notes/building-generative-ai-applications-with-gradio.md
     - Chat GPT Prompt Engineering for Developers: notes/chat-gpt-prompt-engineering-for-developers.md
     - Pair Programming with a LLM: notes/pair-programming-with-a-llm.md
     - Prompt Engineering with Llama 2&3: notes/prompt-engineering-with-llama-2&3.md
     - Understanding and Applying Text Embeddings: notes/understanding-and-applying-text-embeddings.md
+  - Learning Paths:
+    - How To - Build a Basic RAG: learning_paths/build-a-basic-rag.md
     
   - Tags: tags.md
 
@@ -58,6 +59,11 @@ markdown_extensions:
       permalink: true
   - tables
   - admonition
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - search
@@ -72,6 +78,8 @@ extra:
     Semantic Search: semantic-search
     Vector Embeddings: vector-embeddings
     MLOps: mlops
+    RAG: rag
+
     
   social:
     - icon: fontawesome/brands/github
@@ -80,4 +88,6 @@ extra:
       link: https://twitter.com/sshkhr16
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sshkhr/
+
+copyright: Copyright &copy; 2024 Shashank Shekhar
     
