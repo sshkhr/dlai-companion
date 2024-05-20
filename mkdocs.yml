@@ -3,6 +3,25 @@ site_url: https://shashankshekhar.com/dlai-course-notes/
 repo_url: https://github.com/sshkhr/dlai-course-notes
 theme:
   name: material
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: red
+      accent: deep orange
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: red
+      accent: deep orange
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 nav:
   - Home: index.md
@@ -30,4 +49,9 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/dlai-course-notes
+      link: https://github.com/sshkhr/dlai-course-notes
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sshkhr16
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sshkhr/
+    
