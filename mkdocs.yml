@@ -34,9 +34,10 @@ theme:
       vector-emebddings: fontawesome/solid/bars
       mlops: fontawesome/solid/gears
       rag: fontawesome/solid/repeat
+      course-notes: fontawesome/solid/book
       
 nav:
-  - DL.AI Companion: index.md
+  - About: index.md
   - Course Notes:
     - Preprocessing Unstructured Data for LLM Applications: notes/preprocessing-unstructured-data-for-llm-applications.md
     - LLMOps: notes/llmops.md
@@ -47,7 +48,6 @@ nav:
     - Understanding and Applying Text Embeddings: notes/understanding-and-applying-text-embeddings.md
   - Learning Paths:
     - How To - Build a Basic RAG: learning_paths/build-a-basic-rag.md
-    
   - Tags: tags.md
 
 # Set the directory containing your documentation
@@ -71,7 +71,6 @@ plugins:
       tags_file: tags.md
 
 
-
 extra:
   tags:
     Data Preprocessing: data-preprocessing
@@ -79,6 +78,7 @@ extra:
     Vector Embeddings: vector-embeddings
     MLOps: mlops
     RAG: rag
+    Course Notes: course-notes
 
     
   social:

@@ -1,13 +1,13 @@
-# Deep Learning AI Course Notes
+# About this website
 
 Welcome to the Deep Learning AI Course Notes website! This site provides detailed notes and reviews for various courses offered by DeepLearning.AI. Whether you're a beginner looking to get started with deep learning or an advanced practitioner seeking to deepen your knowledge, you'll find valuable insights and resources here.
 
 ## Features
 
-### [Course Notes](Course Notes)
+### [Course Notes](notes/preprocessing-unstructured-data-for-llm-applications)
 Explore comprehensive notes and reviews for each course, covering key concepts, practical applications, and major takeaways.
 
-### [Learning Paths](learning_paths)
+### [Learning Paths](learning_paths/build-a-basic-rag)
 Discover the best sequence of courses to take based on your interests and goals. Use our interactive flowcharts to navigate through different learning paths.
 
 ### [Tags](Tags)

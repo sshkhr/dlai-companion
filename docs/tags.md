@@ -1,7 +1,4 @@
 # Tags
 
-## Tags by topic:
 
-<!-- material/tags -->
-
-## Tags by page type:
+<!-- material/tags { exclude: [Course Notes] } -->
