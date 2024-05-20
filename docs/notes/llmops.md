@@ -1,3 +1,8 @@
+---
+tags:
+  - MLOps
+---
+
 # LLMOps
 
 - Fundamentals
