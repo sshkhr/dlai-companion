@@ -1,3 +1,33 @@
 site_name: Deep Learning AI Course Notes
+site_url: https://shashankshekhar.com/dlai-course-notes/
+repo_url: https://github.com/sshkhr/dlai-course-notes
 theme:
   name: material
+
+nav:
+  - Home: index.md
+  - Notes:
+    - LLMOps: notes/llmops.md
+    - Building Generative AI Applications with Gradio: notes/building-generative-ai-applications-with-gradio.md
+    - Chat GPT Prompt Engineering for Developers: notes/chat-gpt-prompt-engineering-for-developers.md
+    - Pair Programming with a LLM: notes/pair-programming-with-a-llm.md
+    - Prompt Engineering with Llama 2&3: notes/prompt-engineering-with-llama-2&3.md
+    - Understanding and Applying Text Embeddings: notes/understanding-and-applying-text-embeddings.md
+
+# Set the directory containing your documentation
+docs_dir: docs
+
+# Additional configurations
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/dlai-course-notes
