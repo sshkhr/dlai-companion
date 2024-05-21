@@ -1,12 +1,18 @@
-site_name: Deep Learning AI Course Notes
+site_name: DeepLearning.AI Coompanion
 site_url: https://shashankshekhar.com/dlai-course-notes/
 repo_url: https://github.com/sshkhr/dlai-course-notes
 theme:
   name: material
 
+  icon:
+    logo: material/school-outlines
+
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
 
   palette:
     # Palette toggle for light mode
@@ -64,11 +70,14 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
 plugins:
   - search
   - tags:
       tags_file: tags.md
+  - social
 
 
 extra:
