@@ -1,6 +1,7 @@
-site_name: DeepLearning.AI Coompanion
-site_url: https://shashankshekhar.com/dlai-course-notes/
-repo_url: https://github.com/sshkhr/dlai-course-notes
+site_name: DeepLearning.AI Companion
+site_url: https://shashankshekhar.com/dlai-companion
+repo_name: sshkhr/dlai-companion
+repo_url: https://github.com/sshkhr/dlai-companion
 theme:
   name: material
 
@@ -41,17 +42,18 @@ theme:
       mlops: fontawesome/solid/gears
       rag: fontawesome/solid/repeat
       course-notes: fontawesome/solid/book
+      vision: fontawesome/solid/eye
+      safeguards: fontawesome/solid/shield
+      llm: fontawesome/solid/language
+      prompt-engineering: fontawesome/solid/wrench
+      llm4code: fontawesome/solid/keyboard
       
 nav:
-  - About: index.md
+  - About: 
+    - About: index.md
+    - Course Catalog: catalog.md
   - Course Notes:
     - Preprocessing Unstructured Data for LLM Applications: notes/preprocessing-unstructured-data-for-llm-applications.md
-    - LLMOps: notes/llmops.md
-    - Building Generative AI Applications with Gradio: notes/building-generative-ai-applications-with-gradio.md
-    - Chat GPT Prompt Engineering for Developers: notes/chat-gpt-prompt-engineering-for-developers.md
-    - Pair Programming with a LLM: notes/pair-programming-with-a-llm.md
-    - Prompt Engineering with Llama 2&3: notes/prompt-engineering-with-llama-2&3.md
-    - Understanding and Applying Text Embeddings: notes/understanding-and-applying-text-embeddings.md
   - Learning Paths:
     - How To - Build a Basic RAG: learning_paths/build-a-basic-rag.md
   - Tags: tags.md
@@ -73,6 +75,29 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets:
+      base_path: docs/snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.escapeall
+  - pymdownx.tilde
+
+
 plugins:
   - search
   - tags:

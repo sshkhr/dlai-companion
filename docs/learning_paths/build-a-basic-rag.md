@@ -3,18 +3,22 @@ tags:
   - RAG
 ---
 
-# How To: Build a Basic RAG
+# Learn How To: Build a Basic RAG
 
 ``` mermaid
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
-flowchart LR
-subgraph "One"
-  a("`The **cat**
-  in the hat`") -- "edge label" --> b{{"`The **dog** in the hog`"}}
-end
-subgraph "`**Two**`"
-  c("`The **cat**
-  in the hat`") -- "`Bold **edge label**`" --> d("The dog in the hog")
-end
+graph TD
+    A[Data Collection] --> B[Data Preprocessing]
+    B --> C[Index Creation]
+    C --> D[Query Understanding]
+    D --> E[Retrieval]
+    E --> F[Response Generation]
+    F --> G[Post-Processing]
 
+    A -->|Collect relevant datasets| B
+    B -->|Clean, normalize, and tokenize| C
+    C -->|Create and store index| D
+    D -->|Parse and preprocess query| E
+    E -->|Retrieve and rank documents| F
+    F -->|Generate response with language model| G
+    G -->|Refine and format response| H[Final Response]
 ```

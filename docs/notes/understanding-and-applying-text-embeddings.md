@@ -1,8 +1,3 @@
----
-tags:
-  - Vector Embeddings
----
-
 # Understanding and Applying Text Embeddings
 
 - Vector Embeddings
