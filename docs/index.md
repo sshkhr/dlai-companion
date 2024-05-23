@@ -1,6 +1,6 @@
 ---
 title: "DeepLearning.AI Companion"
-description: "A website for detailed course notes, reviews, and detailed learning paths for the courses on DeepLearning.AI"
+description: "A companion website for DeepLearning.AI with detailed course notes, reviews, and learning paths"
 ---
 
 # About this website
@@ -15,10 +15,10 @@ Explore comprehensive notes and reviews for each course, covering key concepts, 
 ### [Course Reviews](reviews/preprocessing-unstructured-data-for-llm-applications)
 My personal review of the courses: their good and bas aspects, as well as who the traget audience should be.
 
-### Coming Soon: [Learning Paths]
+### [Learning Paths](learning_paths/build-a-basic-rag)
 Discover the best sequence of courses to take based on your interests and goals. Use our interactive flowcharts to navigate through different learning paths.
 
-### [Tags](Tags)
+### [Tags](tags)
 Filter courses by topic using our tagging system. Find the content most relevant to your needs quickly and efficiently.
 
 ## Get Started

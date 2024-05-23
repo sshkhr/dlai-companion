@@ -28,6 +28,7 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.top
 
   palette:
     # Palette toggle for light mode
@@ -104,6 +105,9 @@ plugins:
   - social:
       cards_layout_options:
         background_color: red
+        title: "DeepLearning.AI Companion"
+        description: "A companion website for DeepLearning.AI with detailed course notes, reviews, and learning paths"
+
 
 extra:
   tags:
