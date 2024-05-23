@@ -82,8 +82,16 @@ This project is licensed under the MIT License.
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-| Social Media  | :fontawesome-brands-github: GitHub | :fontawesome-brands-twitter: Twitter | :fontawesome-brands-linkedin: LinkedIn |
-|---------------|-------------------------------------|--------------------------------------|---------------------------------------|
-| **Handle**    | [sshkhr](https://github.com/sshkhr) | [@sshkhr16](https://twitter.com/sshkhr16) | [sshkhr](https://www.linkedin.com/in/sshkhr/) |
+<p align="left">
+  <a href="https://github.com/sshkhr">
+    <img src="https://img.shields.io/badge/GitHub-sshkhr-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://twitter.com/sshkhr16">
+    <img src="https://img.shields.io/badge/Twitter-@sshkhr16-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+  </a>
+  <a href="https://www.linkedin.com/in/sshkhr/">
+    <img src="https://img.shields.io/badge/LinkedIn-sshkhr-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+</p>
 
 Happy Learning!
