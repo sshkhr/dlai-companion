@@ -7,7 +7,7 @@ Welcome to the DeepLearning.AI Companion website! I started this project to keep
 ### [Course Notes](notes/preprocessing-unstructured-data-for-llm-applications)
 Explore comprehensive notes and reviews for each course, covering key concepts, practical applications, and major takeaways.
 
-### [Course Reviews]
+### [Course Reviews](reviews/preprocessing-unstructured-data-for-llm-applications)
 My personal review of the courses: their good and bas aspects, as well as who the traget audience should be.
 
 ### Coming Soon: [Learning Paths]

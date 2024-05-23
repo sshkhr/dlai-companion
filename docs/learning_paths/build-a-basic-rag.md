@@ -7,22 +7,27 @@ tags:
 
 ``` mermaid
 flowchart TB
-  subgraph A[Learn: Data Pre-Processing]
+  subgraph A[Learn: fa:fa-database Data Pre-Processing]
     A1(Preprocessing Unstructured Data for LLM Applications)
+    style A stroke:#333,stroke-width:2px
   end
   subgraph B[Learn: Vector Embeddings]
+    style B stroke:#333,stroke-width:2px
     B1(Understanding and Applying Text Embeddings)
   end
   subgraph C[Learn: Vector Databases]
+    style C stroke:#333,stroke-width:2px
     B2(Vector Databases: From Embeddings to Applications)
     B3(Building Applications with Vector Databases)
   end
   subgraph D[Learn: Intro to LLMs]
+    style D stroke:#333,stroke-width:2px
     C1(Getting Started With Mistral)
     C2(Prompt Engineering with Llama 2 & 3)
     C3(Building Systems with the ChatGPT API)
   end
   subgraph E[Learn: Basic RAG]
+    style E stroke:#333,stroke-width:2px
     D2(LangChain: Chat with Your Data)
     D3(Build LLM Apps with LangChain.js)
     D4(LangChain for LLM Application Development)

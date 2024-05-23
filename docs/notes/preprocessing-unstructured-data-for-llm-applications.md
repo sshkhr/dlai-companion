@@ -1,11 +1,13 @@
 ---
+title: "Notes: Preprocessing Unstructured Data for LLM Applications"
+description: "Detailed course notes of Preprocessing Unstructured Data for LLM Applications course on DeepLearning.AI"
 tags:
   - Course Notes
   - Data Preprocessing
   - RAG
 ---
 
-# Preprocessing Unstructured Data for LLM Applications
+# Notes: Preprocessing Unstructured Data for LLM Applications
 
 ## 01. Introduction
 
