@@ -22,7 +22,7 @@ Discover the best sequence of courses to take based on your interests and goals.
 Filter courses by topic using our tagging system. Find the content most relevant to your needs quickly and efficiently.
 
 ## Get Started
-To get started, select a course from the [Course Notes](notes/) section or choose a learning path from the [Learning Paths](learning_paths/) section to find the best sequence of courses for your interests.
+To get started, select a course from the [Course Notes](notes/preprocessing-unstructured-data-for-llm-applications) section or choose a learning path from the [Learning Paths](learning_paths/build-a-basic-rag) section to find the best sequence of courses for your interests.
 
 ## Contact
 If you have any questions, suggestions, or feedback, feel free to reach out:  

@@ -1,6 +1,6 @@
 ---
 title: "Review: Preprocessing Unstructured Data for LLM Applications"
-description: "Review of Preprocessing Unstructured Data for LLM Applications course on DeepLearning.AI. Overall Rating: ⭐️⭐️⭐️☆☆"
+description: "Review of Preprocessing Unstructured Data for LLM Applications course on DeepLearning.AI. Overall Rating: 3/5"
 tags:
   - Review
   - Data Preprocessing

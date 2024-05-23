@@ -104,7 +104,6 @@ plugins:
       tags_file: tags.md
   - social:
       cards_layout_options:
-        background_color: red
         title: "DeepLearning.AI Companion"
         description: "A companion website for DeepLearning.AI with detailed course notes, reviews, and learning paths"
 
